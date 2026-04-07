@@ -1,6 +1,12 @@
-# agext
+# agext-cli
 
 CLI tool to extend VS Code Copilot agent plugins with repo-specific overrides.
+
+## Why?
+
+VS Code installs agent plugins in a user-level directory, and adding any customization means modifying the external source directory and these changes are overwritten by any future updates.
+
+`agext-cli` lets you layer repo-specific overrides on top of any installed agent plugin — without forking or modifying the originals — so every agent behaves exactly the way your project needs.
 
 ## Features
 
@@ -16,14 +22,17 @@ CLI tool to extend VS Code Copilot agent plugins with repo-specific overrides.
 
 Requires [Node.js](https://nodejs.org) >= 18.
 
+You can install the global cli `agext`
+
 ```bash
 npm install -g agext-cli
+agext -h
 ```
 
-Then link globally or run directly with `npx`.
+or run directly with `npx`.
 
 ```bash
-npx agext
+npx agext-cli
 ```
 
 ## Usage
