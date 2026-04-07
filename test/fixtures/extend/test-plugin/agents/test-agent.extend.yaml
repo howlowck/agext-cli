@@ -1,0 +1,10 @@
+name-suffix: " - Custom Extended"
+description: "Extended test agent with repo overrides"
+tools:
+  - browser
+  - execute
+model:
+  - Claude Sonnet
+  - claude-sonnet
+append-instructions: |
+  You now also handle browser automation.

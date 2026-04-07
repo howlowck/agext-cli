@@ -1,0 +1,6 @@
+{
+	"name": "test-plugin",
+	"description": "A test plugin for fixtures",
+	"version": "1.0.0",
+	"agents": ".github/agents/"
+}
