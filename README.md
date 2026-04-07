@@ -17,7 +17,7 @@ CLI tool to extend VS Code Copilot agent plugins with repo-specific overrides.
 Requires [Node.js](https://nodejs.org) >= 18.
 
 ```bash
-npm install -g agext
+npm install -g agext-cli
 ```
 
 Then link globally or run directly with `npx`.
