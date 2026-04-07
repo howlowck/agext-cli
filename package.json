@@ -1,6 +1,6 @@
 {
 	"name": "agext-cli",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "CLI tool to extend VS Code Copilot agent plugins with repo-specific overrides",
 	"type": "module",
 	"bin": {
